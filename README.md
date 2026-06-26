@@ -45,11 +45,26 @@ The project demonstrates how to build a structured Flutter application using the
 ```text
 lib/
 ├── model/
+│   └── quotes_model.dart
+|
 ├── services/
+│   └── quotes_service.dart
+|
 ├── view/
+│   ├── login_view.dart
+│   ├── profile_view.dart
+│   ├── note_view.dart
+│   └── quotes_view.dart
+│
 ├── viewmodel/
+│   ├── notes_viewmodel.dart
+│   └── quotes_viewmodel.dart
+│
 └── main.dart
 ```
+
+<img src="images/Project Structure.png" alt="Project Structure" width="700">
+
 ### Model
 Represents the application's data structures.
 
@@ -61,6 +76,11 @@ Handles business logic and manages communication between the View and Model.
 
 ### Service
 Responsible for API requests and external data access.
+
+## External Resources
+The APIs used in this application are provided by [DummyJSON](https://dummyjson.com/).
+- [DummyJSON](https://dummyjson.com/)
+- [Quotes API Documentation](https://dummyjson.com/docs/quotes)
 
 ## Resources
 - [Flutter Networking Documentation](https://docs.flutter.dev/data-and-backend/networking)
